@@ -24,6 +24,6 @@ class ContactHandler(webapp2.RequestHandler):
 		message = cgi.escape(self.request.get("message"))
 		email = "Sender: " + sender + "\n" + "Full name: " + fullname + "\n" + "Message: " + "\n" + message
 		
-		To = "lampsidewebdesign@gmail.com" # client email
-		From = "lampsidewebdesign@gmail.com" # admin email
+		To = "CLIENT_EMAIL"
+		From = "ADMIN_EMAIL"
 		mail.send_mail(From, To, subject, email)
