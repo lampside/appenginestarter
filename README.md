@@ -7,7 +7,3 @@ and is used as the basic shell for other apps such as:
 * App Engine Contact (coming soon)
 * App Engine Blogger (coming soon)
 * App Engine CMS (coming soon)
-
-[See online demo](http://starter-testing.appspot.com)
-
-[Visit wiki documentation](https://github.com/lampside/appenginestarter/wiki)
